@@ -4,7 +4,7 @@ let pointsMax = 0 || localStorage.getItem("pointsMax")
 	  
 var Snake = (function () {
 
-  const INITIAL_TAIL = 4;
+  const INITIAL_TAIL = 1;
   var fixedTail = true;
 
   var intervalID;
