@@ -1,5 +1,5 @@
 	  
-let pointsMax = 0	  
+let pointsMax = 0 || localStorage.getItem("pointsMax") 
 	  
 	  
 var Snake = (function () {
@@ -46,7 +46,7 @@ var Snake = (function () {
       ctx.fillRect(0, 0, canv.width, canv.height);
       console.log(points, pointsMax)
       localStorage.setItem("points", points)
-
+      localStorage.setItem("pointsMax", pointsMax)
 
       tail = INITIAL_TAIL;
       points = 0;
