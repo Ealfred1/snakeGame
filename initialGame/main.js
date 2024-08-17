@@ -9,8 +9,8 @@ var Snake = (function () {
 
   var intervalID;
 
-  var tileCount = 10;
-  var gridSize = 200/tileCount;
+  var tileCount = 13;
+  var gridSize = 400/tileCount;
 
   const INITIAL_PLAYER = { x: Math.floor(tileCount / 2), y: Math.floor(tileCount / 2) };
 
